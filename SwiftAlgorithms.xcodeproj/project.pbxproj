@@ -14,6 +14,9 @@
 		AB0397432769AF52006DCFD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB0397422769AF52006DCFD8 /* Assets.xcassets */; };
 		AB0397462769AF52006DCFD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0397442769AF52006DCFD8 /* LaunchScreen.storyboard */; };
 		AB03974E2769AF70006DCFD8 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB03974D2769AF70006DCFD8 /* TwoSum.swift */; };
+		ABFB0FD7276BCAC6004D648E /* BViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFB0FD5276BCAC6004D648E /* BViewController.swift */; };
+		ABFB0FD8276BCAC6004D648E /* BViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABFB0FD6276BCAC6004D648E /* BViewController.xib */; };
+		ABFB0FDA276BD4E5004D648E /* CustomNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFB0FD9276BD4E5004D648E /* CustomNotificationCenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		AB0397452769AF52006DCFD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB0397472769AF52006DCFD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB03974D2769AF70006DCFD8 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		AB0397532769B7B8006DCFD8 /* DoublyLinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DoublyLinkedList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		ABFB0FD4276BBDE2004D648E /* CustomHigherOrderFunctions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CustomHigherOrderFunctions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		ABFB0FD5276BCAC6004D648E /* BViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BViewController.swift; sourceTree = "<group>"; };
+		ABFB0FD6276BCAC6004D648E /* BViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BViewController.xib; sourceTree = "<group>"; };
+		ABFB0FD9276BD4E5004D648E /* CustomNotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNotificationCenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,11 @@
 				AB0397442769AF52006DCFD8 /* LaunchScreen.storyboard */,
 				AB0397472769AF52006DCFD8 /* Info.plist */,
 				AB03974D2769AF70006DCFD8 /* TwoSum.swift */,
+				AB0397532769B7B8006DCFD8 /* DoublyLinkedList.playground */,
+				ABFB0FD4276BBDE2004D648E /* CustomHigherOrderFunctions.playground */,
+				ABFB0FD5276BCAC6004D648E /* BViewController.swift */,
+				ABFB0FD6276BCAC6004D648E /* BViewController.xib */,
+				ABFB0FD9276BD4E5004D648E /* CustomNotificationCenter.swift */,
 			);
 			path = SwiftAlgorithms;
 			sourceTree = "<group>";
@@ -128,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB0397462769AF52006DCFD8 /* LaunchScreen.storyboard in Resources */,
+				ABFB0FD8276BCAC6004D648E /* BViewController.xib in Resources */,
 				AB0397432769AF52006DCFD8 /* Assets.xcassets in Resources */,
 				AB0397412769AF51006DCFD8 /* Main.storyboard in Resources */,
 			);
@@ -143,6 +157,8 @@
 				AB03973E2769AF51006DCFD8 /* ViewController.swift in Sources */,
 				AB03973A2769AF51006DCFD8 /* AppDelegate.swift in Sources */,
 				AB03974E2769AF70006DCFD8 /* TwoSum.swift in Sources */,
+				ABFB0FD7276BCAC6004D648E /* BViewController.swift in Sources */,
+				ABFB0FDA276BD4E5004D648E /* CustomNotificationCenter.swift in Sources */,
 				AB03973C2769AF51006DCFD8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
